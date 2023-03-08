@@ -5,5 +5,9 @@
 
 .ToDo { 
     border: 1px solid black; 
-    width: 30em;
+    min-width: 30vw;
+    position: relative; 
+    text-align: center;
+ 
+   
 }

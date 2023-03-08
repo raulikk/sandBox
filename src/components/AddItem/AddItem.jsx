@@ -1,11 +1,16 @@
-
+import './AddItem.css' ; 
 
 
 function AddItem(){ 
     return(
-        <> 
-        <h1> Add Item </h1>
-        </>
+        <span className="AddItem"> 
+       
+        <input  type="text" />
+        <button className="AddItem-button">+ add</button>
+       
+    
+   
+        </span>
 
      )
      

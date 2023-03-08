@@ -1,11 +1,18 @@
-
+import './Search.css'
+import magnifierIcon from "../../assets/icons/magnifier.svg"
 
 function Search() {
 
     return(
-        <> 
-        <h1> Search</h1>
-        </>
+       
+       <span className="Search"> 
+       
+        <input type="text" /> 
+
+        <button className="search-button"> 
+             search...
+        </button>
+        </span>
     )
 
 }
